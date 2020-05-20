@@ -1,12 +1,13 @@
 body {
   font-family: "Lato", sans-serif;
   margin: 0px;
-  background-color: black;
+  
 }
 
 .container {
   display: grid;
   grid-template-columns: 1fr;
+  background-color: black;
 }
 
 .nav-wrapper {
