@@ -1,1 +1,48 @@
-theme: jekyll-theme-cayman
+title: Satwik Chappidi
+author: Chappidi Yoga Satwik
+email: satwikchappidi24@gmail.com
+description: > # this means to ignore newlines until "show_exerpts:"
+  Hey!! I am Satwik, a junior at Indian Institue of Technology, Kharagpur
+  currently pursuing a BTech+MTech major in Computer Science and Engineering.
+show_excerpts: true # set to true to show excerpts on the homepage
+baseurl:
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+sass:
+  sass_dir: _sass
+
+permalink: /blogs/:title/
+
+texture:
+  title: Chappidi Yoga Satwik
+  tagline: Student,
+  date_format: "%b %-d, %Y"
+  style: black
+  showNav: true
+  showPicker: false
+
+  # generate social links in footer
+  social_links:
+    twitter: test
+    github: cypre55
+    linkedIn: in/satwik-chappidi
+    rss: rss
+
+  navigation:
+    - title: About
+      url: /about
+    - title: Blogs
+      url: /blogs
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+header_pages:
+  - about.md
+
+# Build settings
+# theme: texture
+
+plugins:
+  - jekyll-seo-tag
+#  - jekyll-feed
